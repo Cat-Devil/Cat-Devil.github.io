@@ -1,0 +1,15 @@
+a.MenuItem {
+	text-decoration: none;
+}
+a.MenuItem:link {
+	color: rgb(160,160,160);
+}
+a.MenuItem:visited {
+	color: rgb(160,160,160);
+}
+a.MenuItem:hover {
+	color: rgb(192,192,192);
+}
+a.MenuItem:active {
+	color: rgb(128,128,128);
+}

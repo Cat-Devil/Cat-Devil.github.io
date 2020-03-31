@@ -5,8 +5,42 @@
 		<title>
 			CatDevils' blog
 		</title>
+		<style type="text/css">
+			#Menu {
+				position: fixed;
+				background-color: rgb(64,64,64);
+				width: 256px;
+				height: 100%;
+			}
+			#HeadPicture {
+				position: relative;
+				top: 64px;
+				border-style: outset;
+				border-top-color: rgb(192,192,192);
+				border-left-color: rgb(192,192,192);
+				border-right-color: rgb(160,160,160);
+				border-bottom-color: rgb(160,160,160);
+				border-width: 5px;
+			}
+			#MainFrame {
+				position: absolute;
+				background-color: rgb(192,192,192);
+				left: 0px;
+				top: 0px;
+			}
+		</style>
 	</head>
 	<body>
-		<img src="images\CatDevils.png" />
+		<div id="Menu" align="center">
+			<div style="width: 256px; height: 256px;">
+				<a href="http://www.baidu.com/" target="_blank">
+					<img id="HeadPicture" src="images\CatDevils.png" />
+				</a>
+			</div>
+			<iframe style="border: none;" src="menu.html" width="256px" height="100%" scrolling="no" />
+		</div>
+		<div id="MainFrame" align="center">
+			text
+			</div>
 	</body>
 </html>
